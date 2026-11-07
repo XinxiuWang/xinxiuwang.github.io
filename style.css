@@ -22,10 +22,11 @@ p { margin: 0 0 13px; }
 ul, ol { margin: 8px 0 0; padding-left: 26px; }
 .interests li { margin-bottom: 5px; }
 .paper-list { padding-left: 25px; }
-.paper { padding-left: 2px; margin-bottom: 18px; }
-.paper-title { margin-bottom: 2px; line-height: 1.4; }
+.paper { padding-left: 2px; margin-bottom: 12px; }
+.paper-title { display: inline; line-height: 1.4; }
 .paper-status { color: #3a3a3a; font-size: 14px; }
-.authors { margin: 2px 0 4px; font-size: 15px; }
+.authors { display: inline; margin: 0 6px 0 0; font-size: 15px; }
+.authors::before { content: " · "; }
 .authors strong { font-weight: normal; }
 .paper details { display: inline-block; }
 .paper details[open] { display: block; }
@@ -51,6 +52,5 @@ footer p { margin-bottom: 5px; }
   .about { display: block; }
   .portrait { width: 120px; margin: 0 0 17px; }
   h2 { font-size: 21px; }
-  .paper { margin-bottom: 19px; }
   ul, ol { padding-left: 22px; }
 }
