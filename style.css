@@ -33,8 +33,6 @@ ul, ol { margin: 8px 0 0; padding-left: 26px; }
 .paper summary::-webkit-details-marker { display: none; }
 .paper summary:hover { text-decoration: underline; }
 .abstract { margin: 7px 0 8px; padding: 7px 12px; border-left: 2px solid #c5ced9; color: #333; font-size: 15px; line-height: 1.5; }
-.paper-request { margin-left: 8px; font-size: 14px; }
-.paper details[open] + .paper-request { margin-left: 0; }
 .publications li { line-height: 1.5; }
 footer { margin-top: 32px; padding-top: 10px; border-top: 1px solid #ddd; color: #666; font-size: 12px; }
 footer p { margin-bottom: 5px; }
